@@ -1,0 +1,25 @@
+.infoBox {
+    width: 250px !important;
+    cursor: pointer;
+}
+
+.infoBox__cases span {
+    display: flex;
+    align-items: center;
+}
+
+.recovered {
+    color: rgb(125, 215, 29);
+}
+
+.danger {
+    color: rgb(251, 68, 67);
+}
+
+.infoBox--selected {
+    border-top: 10px solid rgb(125, 215, 29);
+}
+
+.infoBox--red {
+    border-top: 10px solid rgb(251, 68, 67) !important;
+}
